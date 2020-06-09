@@ -1,0 +1,83 @@
+/* @charset  */
+
+
+
+body{
+    background-color: goldenrod;
+
+}
+
+
+header{
+        color: black;
+}
+
+
+#estiloid {
+
+    color: blue;
+
+}
+
+#barralateral{
+    
+    background-color: blueviolet;
+    float: left;
+    height: 123px;
+    border:solid 5px ;color: blanchedalmond;
+    border-radius: 20px;
+    
+
+}
+
+/* @font-face{
+
+    font-family: 'MyFuente';
+    src: url('COMICATE.TTF');
+
+
+
+} */
+
+#carl{
+
+    
+    box-shadow: aliceblue 5px 5px 5px;
+
+}
+
+#foter{
+    background-color: blueviolet;
+
+
+}
+#principal{
+
+    
+    background-color:rgb(230, 53, 22);
+
+    padding-left: 150px;
+
+
+}
+
+#li{
+    display: inline;
+
+}
+
+#articulo2{
+    
+    background-color: aqua;
+}
+
+#articulo1{
+    
+    background-color: rgb(18, 6, 39);
+}
+
+p[name="holamundo"]{
+
+    color: aliceblue;
+
+}

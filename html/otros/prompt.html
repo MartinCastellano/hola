@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>alerta prompt</title>
+    </head>
+    <body>
+        
+        <button name="prompt" onclick="myFunction()">click aqui</button>
+        <p id="demostracion" > </p>
+        <script>
+        function myFunction(){
+            var texte;
+            var usuario = prompt("ingrese su nombre" ,"aca va el nombre");
+            if ( usuario == null || usuario == " " || usuario == "aca va el nombre") {
+                texto = "el usuario a cancelado el ingreso de datos";
+
+            }
+            else {
+                texto =" hola " + usuario + " bienvenido!";
+            }
+            document.getElementById("demostracion").innerHTML = texto;
+        }</script>
+    </body>
+</html>

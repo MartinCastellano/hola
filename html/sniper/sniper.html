@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sniper</title></head>
+    <link rel="stylesheet" type="text/css" href="sniper.css">
+<body>
+    <canvas id="pageMarker_canvas" width="1533" height="745"></canvas>
+    <!-- <script> src="sniper.js"</script> -->
+
+    <div id="pageMarker_draggable" class="ui-draggable ui-draggable-handle" style="top: 0px;">
+        <div id="pageMarker_color">
+            <div class="pageMarker_title">Color</div>
+            <input id="pageMarker_colorSelect" type="color" value="#FF0000">
+            <input id="pageMarker_colorSelect" type="color" value="#F0000">
+        </div>
+        <div id="pageMarker_tools">
+            <div class="pageMarker_title">Tools</div>
+            <a id="pageMarker_pen" style="background: rgba(0, 0, 0, 0.2);">
+                <img id="pageMarker_penImg" class="pageMarker_icon" alt="Marker" title="Marker" src="pen.png"></a>
+            <a id="pageMarker_eraser">
+                <img id="pageMarker_eraserImg" class="pageMarker_icon" alt="Eraser" title="Eraser" src="eraser.png"></a>
+            <a id="pageMarker_pointer">
+                <img id="pageMarker_pointerImg" class="pageMarker_icon" alt="Pointer" title="Pointer" src="pointer.png"></a>
+            <a id="pageMarker_save">
+                <img id="pageMarker_saveImg" class="pageMarker_icon" alt="Save" title="Save Drawing" src="save.png"></a>
+        </div>
+        <div class="pageMarker_title">Size</div>
+        <input type="range" id="pageMarker_thicknessSlider" value="5" max="40" min="1">
+        <input type="button" value="Clear" id="pageMarker_clear" class="pageMarker_button">
+        <input type="button" value="Close" id="pageMarker_exit" class="pageMarker_button">
+    </div>
+</body>
+</html>
