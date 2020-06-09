@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<padre nick="abuelito">
+   <hijo>
+      julio
+      <Pnieto/>
+   </hijo>
+   <segundoHijo>
+      <Snieto/>
+   </segundoHijo>
+</padre>
