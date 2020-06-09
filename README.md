@@ -1,2 +1,4 @@
-# hola
-nada q ver aca
+# hola este es el primer comit
+
+
+aca van programas para practicar
