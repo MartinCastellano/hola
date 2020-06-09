@@ -1,0 +1,8 @@
+Executing script: /home/martin/Downloads/Practicas/nanogame/fizzbuzz.py
+Script arguments: -3000,7,6,100
+Output:
+  File "/home/martin/Downloads/Practicas/nanogame/fizzbuzz.py", line 15
+    if !(number  %3 and number %5): 
+       ^
+SyntaxError: invalid syntax
+
