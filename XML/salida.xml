@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<padre nombre="hola">
+   <hijo>
+       esta es otra forma de agregar un text
+      <nieto/>
+   </hijo>
+   <segundo elhijo="elnombre del hijo ">aca va la info que le corresponde al segundo hijo</segundo>
+   <!--este comentario deberia estar en la raiz no se porq aparece aca-->
+</padre>
